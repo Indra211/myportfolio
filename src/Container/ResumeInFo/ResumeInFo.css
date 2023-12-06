@@ -1,0 +1,80 @@
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+.skill-container{
+  width: auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 8px 0 20px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 24px; */
+}
+.skill-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-family: 'Poppins-Bold';
+  }
+  
+  .skill-details.active {
+    background-color: #1f2235;
+  }
+  
+  .skill-details i {
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skill-details button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: 'Poppins Medium';
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+    .skill-details button.active {
+    border: none;
+    background-color:#1f2235;
+    color: white;
+}
+    .skill-details.active i {
+        border: none;
+        color: white;
+}
+.resume-container-parent{
+  display: flex;
+  justify-content: space-between;
+}
+.skill-container-detail{
+  width: auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 8px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:680px) {
+  .resume-container-parent{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+  }
+  
+}
+  

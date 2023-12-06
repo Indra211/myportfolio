@@ -1,0 +1,33 @@
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Poppins-Light';
+  }
+  .textinput-container p{
+    margin: 0;
+    align-self: flex-start;
+    font-family: 'Poppins-Light';
+  }
+  .mandatory {
+    color: red;
+    margin-left: 5px;
+  }
+  .text-mandatory{
+    display: flex;
+  }
+.custom-textarea {
+    width: 100%;
+    margin: 0;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    /* border: darkorange 5px solid; */
+    font-family: 'Poppins-Light';
+    border: 1px solid #3498db;
+  }
+  

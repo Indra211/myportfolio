@@ -1,0 +1,22 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+.contact-parent{
+    width: 1000px; 
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4)
+}
+
+
+@media screen and (max-width:680px) {
+    .contact-parent{
+        width:350px
+    }
+    
+}
