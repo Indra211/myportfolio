@@ -11,6 +11,7 @@ function TextField(props) {
         value={props.value}
         onChange={props.onChange}
         className="custom-textarea"
+        style={props.style}
       />
     </div>
   );

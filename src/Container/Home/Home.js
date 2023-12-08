@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home-container">
       <Profile />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

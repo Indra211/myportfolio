@@ -1,7 +1,7 @@
 import React from "react";
 import "./TextInput.css";
 
-function TextInput({ label, value, onChange }) {
+function TextInput({ label, value, onChange, type, style }) {
   return (
     <div className="textinput-container">
       <div className="text-mandatory">
@@ -10,9 +10,10 @@ function TextInput({ label, value, onChange }) {
       </div>
       <input
         required
-        type="text"
+        type={type ? type : "text"}
         value={value}
         onChange={onChange}
+        style={style}
         className="custom-input" // Add a custom class for styling
       />
     </div>
