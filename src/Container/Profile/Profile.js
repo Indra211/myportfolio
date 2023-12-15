@@ -11,9 +11,6 @@ const Profile = () => {
               <a href="https://www.linkedin.com/in/cherukuru-indrasena-reddy-b9717b228/">
                 <i className="bi bi-linkedin"></i>
               </a>
-              <a href="https://github.com/Indra211">
-                <i className="bi bi-github"></i>
-              </a>
               <a href="https://www.facebook.com/indrasenareddy.cherukuru/">
                 <i className="bi bi-facebook"></i>
               </a>
