@@ -61,11 +61,11 @@ const Profile = () => {
             </span>
           </div>
           <div className="profile-options">
-            <a href="mailto:indrasena0018@gmail.com">
+            <a href="#contact">
               <button className="btn primary-btn">Get in Touch</button>
             </a>
             <a
-              href="CHERUKURU INDRASENA REDDY .pdf"
+              href="CHERUKURU INDRASENA REDDY.pdf"
               download={"CHERUKURU INDRASENA REDDY.pdf"}
             >
               <button className="btn highlighted-btn">Resume</button>
