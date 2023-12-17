@@ -6,6 +6,7 @@ import ResumeInFo from "./Container/ResumeInFo/ResumeInFo";
 import ContactMe from "./Container/ContactMe/ContactMe";
 import Navbar from "./Components/navbar/navbar";
 import { ToastContainer } from "react-toastify";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function App() {
   return (
@@ -15,16 +16,24 @@ function App() {
       <Navbar />
       <div className="content">
         <section id="home">
-          <Home />
+          <ScrollAnimation animateIn="fadeIn">
+            <Home />
+          </ScrollAnimation>
         </section>
         <section id="about">
-          <About />
+          <ScrollAnimation animateIn="bounceInLeft">
+            <About />
+          </ScrollAnimation>
         </section>
         <section id="resume">
-          <ResumeInFo />
+          <ScrollAnimation animateIn="bounceInRight">
+            <ResumeInFo />
+          </ScrollAnimation>
         </section>
         <section id="contact">
-          <ContactMe />
+          <ScrollAnimation animateIn="flipInY">
+            <ContactMe />
+          </ScrollAnimation>
         </section>
       </div>
       <ToastContainer />
