@@ -17,7 +17,7 @@ function ResumeInFo(props) {
     }
   };
   const workExperience = [
-    "Tools Used:",
+    "Technologies Used:",
     "Front-End:(JavaScript)React-Native",
     "Back-End:Python(Django)",
   ];
