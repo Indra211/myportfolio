@@ -57,7 +57,7 @@
   display: flex;
   justify-content: space-between;
 }
-.skill-container-detail{
+.skill-container-detail {
   width: 680px;
   padding: 32px;
   background-color: #ffffff;
@@ -67,8 +67,19 @@
   flex-direction: column;
   justify-content: space-between;
   transition: all 3s;
+  animation: resume 3s linear 0s 1 alternate-reverse forwards;
 }
 
+@keyframes resume {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
 
 @media screen and (max-width:1100px) {
   .resume-container-parent{
