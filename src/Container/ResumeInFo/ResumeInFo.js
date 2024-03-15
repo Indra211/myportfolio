@@ -11,15 +11,17 @@ function ResumeInFo(props) {
   );
   const handleselect = (word) => {
     if (selectSkill === word) {
-      setSelectSkill("");
     } else {
       setSelectSkill(word);
     }
   };
   const workExperience = [
     "Technologies Used:",
-    "Front-End:(JavaScript)React-Native",
-    "Back-End:Python(Django)",
+    "Front-End:(JavaScript)React-Native,React-Js",
+    "Back-End:Python(Django,FastApi)",
+    "DataBase:Postgres,MongoDb",
+    "Cloud:Aws",
+    "Version Control:Github",
   ];
   const InterExperiece = [
     "Skills Learn:",
@@ -31,6 +33,8 @@ function ResumeInFo(props) {
     "Javascript",
     "ReactJs and React-Native",
     "Django",
+    "FastApi",
+    "NodeJs",
     "Full Stack Developer",
   ];
   const ProjectData1 = [

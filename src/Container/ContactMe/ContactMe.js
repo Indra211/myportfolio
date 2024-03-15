@@ -118,7 +118,7 @@ function ContactMe(props) {
         />
         <TextInput
           type={"email"}
-          label={"email"}
+          label={"Email"}
           value={email}
           onChange={handleEmail}
           style={{

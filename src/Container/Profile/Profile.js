@@ -20,6 +20,9 @@ const Profile = () => {
               <a href="mailto:indrasena0018@gmail.com">
                 <i class="bi bi-envelope-fill"></i>
               </a>
+              <a href="https://github.com/Indra211">
+                <i class="bi bi-github"></i>
+              </a>
             </div>
           </div>
           <div className="profile-details-name">
