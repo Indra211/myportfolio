@@ -54,3 +54,6 @@
   position: relative;
   z-index: 1;
 }
+.loading{
+  background-color: #d2d8df
+}
