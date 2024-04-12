@@ -37,14 +37,11 @@ function ResumeInFo(props) {
     "NodeJs",
     "Full Stack Developer",
   ];
-  const ProjectData1 = [
-    "* To Maintain Health reports of Patient Digitally.",
-    "* Smooth communication between Doctor and Patient.",
-    "* Appointment Booking of Patient To Doctor.",
-    "* Digital Prescription",
-    "Tools Used:",
-    "Front-End:html,css,js",
-    "Back-End:Python(Django)",
+  const pd4 = ["Technologies: Html, CSS, JavaScript, Django"];
+  const pd2 = ["Technologies: Python"];
+  const pd3 = ["Technologies: React.js, Django"];
+  const pd1 = [
+    "Technologies: MongoDB, Express.js, React.js, Node.js, React Native(Mobile)",
   ];
   return (
     <div className="resume-container">
@@ -116,14 +113,20 @@ function ResumeInFo(props) {
         {selectSkill === Constants?.Resume_headlines[3]?.type && (
           <div className="skill-container-detail">
             <SkillHead
-              skill={"Digital HealthCare Management System"}
-              data={ProjectData1}
+              skill={"Ecommerce Full Stack Development Project"}
+              skillDetail={pd1[0]}
             />
             <SkillHead
-              skill={"Solar Tracking System Using AURDINO"}
-              skillDetail={
-                "* To Track More Solar energy from Sun and give end user."
-              }
+              skill={"Personal Portfolio Website"}
+              skillDetail={pd3[0]}
+            />
+            <SkillHead
+              skill={"Music Player Application  "}
+              skillDetail={pd2[0]}
+            />
+            <SkillHead
+              skill={"Digital HealthCare Management System"}
+              skillDetail={pd4[0]}
             />
           </div>
         )}
