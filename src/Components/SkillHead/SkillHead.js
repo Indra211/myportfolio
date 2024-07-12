@@ -10,7 +10,7 @@ function SkillHead(props) {
         <div className="skill-text">
           {props.skill && <h6>{props.skill}</h6>}
           {props.skillDetail && <p>{props.skillDetail}</p>}
-          {data && data?.map((item, ind) => <p>{item}</p>)}
+          {data && data?.map((item, ind) => <p key={ind}>{item}</p>)}
         </div>
       </div>
       {props.period && (

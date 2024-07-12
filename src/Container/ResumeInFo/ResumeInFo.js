@@ -37,9 +37,8 @@ function ResumeInFo(props) {
     "NodeJs",
     "Full Stack Developer",
   ];
-  const pd4 = ["Technologies: Html, CSS, JavaScript, Django"];
-  const pd2 = ["Technologies: Python"];
-  const pd3 = ["Technologies: React.js, Django"];
+  const pd3 = ["Technologies: React.js,LocalStorage"];
+  const pd2 = ["Technologies: MongoDB, Express.js, React.js, Node.js,AWS EC2"];
   const pd1 = [
     "Technologies: MongoDB, Express.js, React.js, Node.js, React Native(Mobile)",
   ];
@@ -51,6 +50,7 @@ function ResumeInFo(props) {
           {Constants?.Resume_headlines?.map((item, ind) => (
             <>
               <div
+                key={ind}
                 className={`skill-details ${
                   selectSkill === item?.type ? "active" : ""
                 }`}
@@ -113,20 +113,40 @@ function ResumeInFo(props) {
         {selectSkill === Constants?.Resume_headlines[3]?.type && (
           <div className="skill-container-detail">
             <SkillHead
-              skill={"Ecommerce Full Stack Development Project"}
-              skillDetail={pd1[0]}
-            />
-            <SkillHead
-              skill={"Personal Portfolio Website"}
-              skillDetail={pd3[0]}
-            />
-            <SkillHead
-              skill={"Music Player Application  "}
+              skill={
+                <a
+                  style={{ color: "#ff5823" }}
+                  href="http://43.204.140.140/"
+                  target="_"
+                >
+                  FileHub
+                </a>
+              }
               skillDetail={pd2[0]}
             />
             <SkillHead
-              skill={"Digital HealthCare Management System"}
-              skillDetail={pd4[0]}
+              skill={
+                <a
+                  style={{ color: "#ff5823" }}
+                  href="https://indra211.github.io/reactnotes/"
+                  target="_"
+                >
+                  ReactNote
+                </a>
+              }
+              skillDetail={pd3[0]}
+            />
+            <SkillHead
+              skill={
+                <a
+                  style={{ color: "#ff5823" }}
+                  href="https://github.com/Indra211/Ecommerce.git"
+                  target="_"
+                >
+                  Ecommerce Full Stack Development Project
+                </a>
+              }
+              skillDetail={pd1[0]}
             />
           </div>
         )}

@@ -1,13 +1,6 @@
 export const Constants = {
-  objective: `As a highly motivated and detail-oriented full-stack developer, my
-    objective is to contribute my diverse skill set in both front-end and
-    back-end technologies to create innovative and user-friendly web
-    applications and Mobile Applications.With a strong foundation in HTML,
-    CSS, JavaScript,Python and proficiency in frameworks such as React and
-    Django, I aspire to collaborate with dynamic teams to design, develop,
-    and deploy robust solutions. I am committed to staying abreast of
-    emerging technologies and leveraging my problem-solving abilities to
-    deliver high-quality software that meets both user and business needs.`,
+  objective:
+    "Seeking a challenging role as a Full Stack Developer where I can leverage my diverse skill set and one year of hands-on experience. Proficient in utilizing React Native for cross-platform mobile development and React.js for web frontend, backed by expertise in implementing push notifications to enhance user engagement. Skilled in backend development with FastAPI, Django, and the MERN stack, with a successful track record of delivering robust and scalable solutions. Committed to contributing innovative ideas and driving projects to success in a collaborative team environment",
   Skils: [
     "Python Developer",
     "Full Stack web and Mobile Developer",
