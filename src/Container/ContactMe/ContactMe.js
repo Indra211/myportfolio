@@ -41,7 +41,7 @@ function ContactMe(props) {
         }),
       });
       const jsonData = await response.json();
-      if (jsonData?.status === "success") {
+      if (jsonData?.success) {
         setLoading(false);
         showToast("success", "Suceesfully sent");
         setEmail("");

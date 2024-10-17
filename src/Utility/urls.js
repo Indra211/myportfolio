@@ -1,3 +1,3 @@
 export const URL = {
-  send_mail: "https://protfolio-5kel.onrender.com/mail",
+  send_mail: "https://quizziebackend-y1x1.onrender.com/api/v1/emailSent",
 };
